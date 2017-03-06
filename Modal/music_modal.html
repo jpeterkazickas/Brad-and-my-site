@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+	<title> Music Modal</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<link  rel="stylesheet" type="text/css" href="stylesheet.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+<body bgcolor="white">
+
+<!-- Trigger the modal with a button -->
+<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog modal-lg">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Artist Profile...</h4>
+      </div>
+      <div class="modal-body">
+      	<div class="container-fluid">
+        <div class="container col-md-4" style="float:right">
+  <div class="calendar-header"><h4>Upcoming Shows</h4></div>        
+  <table class="table table-hover">
+    <tbody>
+      <tr>
+        <td><span>8PM | Mercury Lounge <span style="float:right"><strong>tix...</strong></span></span></td>
+      </tr>
+      <tr>
+        <td><span>10PM | Mercury Lounge <span style="float:right"><strong>tix...</strong></span></span></td>
+      </tr>
+      <tr>
+        <td><span>11PM | Mercury Lounge <span style="float:right"><strong>tix...</strong></span></span></td>
+      </tr>
+    </tbody>
+  </table>
+  	<div class="artist-bio col-md-12">
+		<div class="artist-bio-header">
+			<h4>Artist Bio...</h4>
+				<div class="artist-bio-content col-md-12"
+			<p><em> This is where we are going to right our own personalized piece about each of the artists based off of interviews that we've done with them and shows that we've seen.
+			<br> Hopefully this will give us a great way into the scene where we can connect with artists and their fans.
+			<br> I feel like incorporating the underground vibe into this site by getting our content straight from the artists and keeping it real will be valuable in building a brand that this demographic can connect to.
+			</em>
+			</p>
+				</div>
+		</div>
+	</div>
+</div>
+
+        <!--Card-->
+        <div class="card col-md-4">
+  	<iframe width="100%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/252231083&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+ 		<div class="card-text">
+    		<span><b>Ugly God</b></span> 
+    			<p>Saturday | 10pm | Electric Room</p> 
+  	  	</div>
+		</div>
+		<!--Card-->
+      </div>
+      </div>
+      <!--End Body-->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+</body>
+</html>
